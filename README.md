@@ -21,15 +21,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Screenshoot
 1. Login/Register
-![Screenshot_8](https://user-images.githubusercontent.com/90307565/209779294-53d2259d-efab-473c-92c9-84ada4b9adc0.png)
+    - ![Screenshot_8](https://user-images.githubusercontent.com/90307565/209779294-53d2259d-efab-473c-92c9-84ada4b9adc0.png)
 2. Home Page
-![Screenshot_9](https://user-images.githubusercontent.com/90307565/209779936-9078c8e0-0b03-4d40-8637-ec71d242c087.png)
-![Screenshot_10](https://user-images.githubusercontent.com/90307565/209780017-238bb223-9007-40b9-ab6e-39facd34e937.png)
+    - ![Screenshot_9](https://user-images.githubusercontent.com/90307565/209779936-9078c8e0-0b03-4d40-8637-ec71d242c087.png)
+
+    - ![Screenshot_10](https://user-images.githubusercontent.com/90307565/209780017-238bb223-9007-40b9-ab6e-39facd34e937.png)
 3. Admin Page
     - Dashboard
     ![Screenshot_11](https://user-images.githubusercontent.com/90307565/209780094-2708aacf-49ef-441f-8ae7-5879f4fba742.png)
     - User
     ![Screenshot_12](https://user-images.githubusercontent.com/90307565/209780099-d97523d7-8504-4ebe-b369-8769f6f36cb5.png)
+    - 
     ![Screenshot_13](https://user-images.githubusercontent.com/90307565/209780103-fcd8ab6d-61f8-437b-a8cf-c40c87c8a7e2.png)
     - Channel
     ![Screenshot_14](https://user-images.githubusercontent.com/90307565/209780106-49909cca-6791-492e-b416-4380a7c07566.png)
@@ -38,7 +40,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Screenshoot Error on Stackblitz and Sandbox Environment
 1. Stackblitz
+    - ![Screenshot_7](https://user-images.githubusercontent.com/90307565/209780600-48f0b9c5-b787-4dde-90f2-d4f4d0c342d2.png)
+
 2. Sandbox
+    - ![Screenshot_6](https://user-images.githubusercontent.com/90307565/209780595-35282bf9-707c-4913-8678-744ec2555b84.png)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
