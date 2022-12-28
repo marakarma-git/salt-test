@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
 
+  imgAdmin = 'assets/img/admin.png'
 }

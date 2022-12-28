@@ -1,1 +1,110 @@
-<p>user works!</p>
+<div class="row mt-3 mb-3">
+    <div class="col-lg-12 mb-3">
+        <h3>Users</h3>
+    </div>
+
+    <div class="card shadow border border-0 rounded-0">
+        <div class="card-header d-flex justify-content-end">
+            <button class="btn btn-primary shadow rounded-0" data-bs-toggle="modal" data-bs-target="#admodaluser"><i class="bi bi-plus-circle"></i> Add User</button>
+        </div>
+        <div class="card-body">
+            <div class="responsive">
+                <table class="table table-stiped table-hover">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Full Name</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>Image URL</th>
+                            <th>Description</th>
+                            <th>Option</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mara Karma</td>
+                            <td>082124668802</td>
+                            <td>rama@gmail.com</td>
+                            <td>123456</td>
+                            <td>https://image.com</td>
+                            <td>Lorem ipsum Description</td>
+                            <td>
+                                <button class="btn btn-sm btn-primary shadow mx-1"><i
+                                        class="bi bi-pencil-square"></i></button>
+                                <button class="btn btn-sm btn-danger shadow"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal add -->
+
+    <div class="modal fade" id="admodaluser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content rounded-0 shadow border border-0">
+            <div class="modal-header" style="border: none;">
+              <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: blueviolet;">Add New User</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+  
+                <div class="form-group row mb-3">
+                  <label class="col-lg-4 col-form-label">Full Name</label>
+                  <div class="col-lg-8">
+                    <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                  </div>
+                </div>
+  
+                <div class="form-group row mb-3">
+                  <label class="col-lg-4 col-form-label">Phone</label>
+                  <div class="col-lg-8">
+                    <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                  </div>
+                </div>
+  
+                <div class="form-group row mb-3">
+                  <label class="col-lg-4 col-form-label">Email</label>
+                  <div class="col-lg-8">
+                    <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                  </div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label class="col-lg-4 col-form-label">Password</label>
+                  <div class="col-lg-8">
+                    <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                  </div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label class="col-lg-4 col-form-label">Image Url</label>
+                  <div class="col-lg-8">
+                    <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                  </div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label class="col-lg-4 col-form-label">Description</label>
+                  <div class="col-lg-8">
+                    <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                  </div>
+                </div>
+  
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn btn-secondary rounded-0 shadow mx-3" data-bs-dismiss="modal"><i class="bi bi-x-circle"></i> Close</button>
+                  <button type="button" class="btn btn-primary rounded-0 shadow"><i class="bi bi-check-circle"></i> Submit</button>
+                </div>
+              </form>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+
+
+</div>
