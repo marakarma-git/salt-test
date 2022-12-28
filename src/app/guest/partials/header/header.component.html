@@ -1,0 +1,116 @@
+<div class="row mb-4">
+    <div class="col-lg-2 mx-auto mb-3">
+      <p class="">
+        <span style="color: blueviolet; font-size: x-large; font-weight: 500;">Social</span>
+        <span style="font-size: x-large;">Network</span>
+      </p>
+    </div>
+    <div class="col-lg-6 mx-auto mb-3">
+      <input type="text" name="" id="" class="form-control rounded-0 shadow" placeholder="Find...">
+    </div>
+
+    <div class="col-lg-2 mx-auto mb-3">
+      <button class="btn btn-light rounded-0 shadow" type="button" data-bs-toggle="modal" data-bs-target="#upload"><i class="bi bi-upload"></i> Upload</button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="upload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content rounded-0 shadow border border-0">
+          <div class="modal-header" style="border: none;">
+            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: blueviolet;"><i class="bi bi-upload"></i> Upload</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+
+              <div class="form-group row mb-3">
+                <label class="col-lg-4 col-form-label">Category</label>
+                <div class="col-lg-8">
+                  <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                </div>
+              </div>
+
+              <div class="form-group row mb-3">
+                <label class="col-lg-4 col-form-label">Author</label>
+                <div class="col-lg-8">
+                  <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                </div>
+              </div>
+
+              <div class="form-group row mb-3">
+                <label class="col-lg-4 col-form-label">Views</label>
+                <div class="col-lg-8">
+                  <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                </div>
+              </div>
+              <div class="form-group row mb-3">
+                <label class="col-lg-4 col-form-label">Title</label>
+                <div class="col-lg-8">
+                  <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                </div>
+              </div>
+              <div class="form-group row mb-3">
+                <label class="col-lg-4 col-form-label">Image Url</label>
+                <div class="col-lg-8">
+                  <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                </div>
+              </div>
+              <div class="form-group row mb-3">
+                <label class="col-lg-4 col-form-label">Description</label>
+                <div class="col-lg-8">
+                  <input type="text" formControlName="" class="form-control rounded-0 shadow">
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-secondary rounded-0 shadow mx-3" data-bs-dismiss="modal"><i class="bi bi-x-circle"></i> Close</button>
+                <button type="button" class="btn btn-primary rounded-0 shadow"><i class="bi bi-check-circle"></i> Submit</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="col-lg-2 mx-auto mb-3">
+      <div class="d-flex justify-content-end">
+
+        <div class="dropdown">
+          <img src="{{ imgUser }}" alt="image" class="img-fluid dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 50px; border-radius: 10px">
+          <ul class="dropdown-menu shadow border border-0 rounded-0">
+            <li><a class="dropdown-item" href="/dashboard"><i class="bi bi-person text-success"></i> Admin Page</a></li>
+            <li><a class="dropdown-item" href="/login"><i class="bi bi-power text-danger"></i> Logout</a></li>
+          </ul>
+        </div>
+
+        <div class="mx-1">
+          <p>
+            <span class="fw-bold" style="font-size: large;">Mara Karma</span><br/>
+            <span>Active</span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+  <div class="row mb-4">
+    <hr/>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" style="color: blueviolet;" routerLink="#">Videos</li>
+        <li class="breadcrumb-item" style="color: blueviolet;" routerLink="#">Peolple</li>
+        <li class="breadcrumb-item" style="color: blueviolet;" routerLink="#">Documents</li>
+        <li class="breadcrumb-item" style="color: blueviolet;" routerLink="#">Events</li>
+        <li class="breadcrumb-item" style="color: blueviolet;" routerLink="#">Communities</li>
+        <li class="breadcrumb-item" style="color: blueviolet;" routerLink="#">Favorites</li>
+        <li class="breadcrumb-item" style="color: blueviolet;" routerLink="#">Channels</li>
+        <!-- <li class="breadcrumb-item active" aria-current="page">Data</li> -->
+      </ol>
+    </nav>
+    <hr/>
+
+  </div>
