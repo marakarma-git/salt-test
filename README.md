@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
+## How To Run
+1. open your terminal and clone this repository `https://github.com/marakarma-git/salt-test.git`
+2. cd to project directory `cd/salt-test`
+3. install npm package `npm install`
+4. run the project
+    - for the frontend `ng serve`
+    - for the backend `json-server --watch db.json`
+5. open your browser like Google Chrome type `localhost:4200`
+6. input email and password
+    - email: `marakarma36@gmail.com`
+    - password : `12345`
+    or
+    - email : `admin@gmail.com`
+    - password : `12345`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
